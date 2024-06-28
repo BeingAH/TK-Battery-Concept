@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  background: linear-gradient(175deg, #0ff0b3 0%, #036ed9 100%);
+}
+section {
+  display: flex;
+  height: 100vh;
+}
+/* ========================================================================== */
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  margin: 0;
+  font-size: 6vw;
+  color: #ffffff;
+}
+h2 {
+  margin: 0 0 10 0;
+  font-size: 3vw;
+  background: linear-gradient(
+    to right,
+    #000000 0%,
+    #707070 30%,
+    #76fd88 60%,
+    #3aff54 100%
+  );
+  background: -webkit-linear-gradient(
+    to right,
+    #000000 0%,
+    #707070 30%,
+    #76fd88 60%,
+    #3aff54 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h3 {
+  margin: 5;
+  font-size: 2vw;
+  color: #000000;
+}
+/* ========================================================================== */
+canvas {
+  display: block;
+}
+#anime_tk {
+  width: 100%;
+  height: 20vh;
+  position: relative;
+}
+#anime_other {
+  width: 100%;
+  height: 20vh;
+  position: relative;
+}
+/* ========================================================================== */
